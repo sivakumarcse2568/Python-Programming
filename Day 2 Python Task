@@ -1,5 +1,5 @@
-1.Whether it is positive, negative, or zero
-Code:
+#1.Whether it is positive, negative, or zero
+#Code:
     n = int(input("Enter a Number:"))
     if(n>0):
       print(n," is a Positive Number.")
