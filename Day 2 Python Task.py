@@ -8,30 +8,30 @@
     else:
       print(n," is a Negative Number.")
 
-2.Whether it is even or odd
-Code:
+#2.Whether it is even or odd
+#Code:
     n = int(input("Enter a Number:"))
     if(n%2 == 0):
       print(n," is a Even Number.")
     else:
       print(n," is a Odd Number.")
 
-3.Whether it is divisible by 3 and 5
-Code:
+#3.Whether it is divisible by 3 and 5
+#Code:
     n = int(input("Enter a Number:"))
     if(n%3 == 0) and (n%5 == 0):
       print(n," is divisible by 3 and 5.")
     else:
       print(n," is not divisible by 3 and 5.")
 
-4.Get the number of electricity units consumed.
-   Calculate the bill:
-   Units	Rate
-   0–100	₹2/unit
-  101–200	₹3/unit
-  201–300	₹5/unit
-  Above 300	₹7/unit
-Code:
+#4.Get the number of electricity units consumed.
+ #  Calculate the bill:
+  # Units	Rate
+   #0–100	₹2/unit
+  #101–200	₹3/unit
+  #201–300	₹5/unit
+  #Above 300	₹7/unit
+#Code:
     n = int(input("Enter the Units Consumed:"))
     if(n>=0) and (n<=100):
       print("Bill Amount:",2*n)
@@ -42,15 +42,15 @@ Code:
     elif(n>300):
       print("Bill Amount:",7*n)
 
-5.Get a number from the user.
-   Print its multiplication table from 1 to 20.
-Code:
+#5.Get a number from the user.
+ #  Print its multiplication table from 1 to 20.
+#Code:
     n = int(input("Enter a Number:"))
     for i in range(1,21):
         print(n," * ",i," = ",n*i)
 
-6.Get a number from the user and determine whether it is prime or not.
-Code:
+#6.Get a number from the user and determine whether it is prime or not.
+#Code:
     n = int(input("Enter a Number:"))
     if(n<=1):
         print(n," is not a Prime Number.")
@@ -63,39 +63,39 @@ Code:
         else:
             print(n," is a Prime Number.")
 
-7.Pattern program
+'''7.Pattern program
 * 
 * * 
 * * * 
 * * * * 
-* * * * *
-Code:
+* * * * *'''
+#Code:
     for i in range(1,6):
         for j in range(i):
             print("*",end=" ")
         print()
 
-8.Pattern Program
+'''8.Pattern Program
         * 
       * * * 
     * * * * * 
   * * * * * * * 
-* * * * * * * * * 
-Code:
+* * * * * * * * * '''
+#Code:
 
-9.Pattern Program
+'''9.Pattern Program
 1 
 1 2 
 1 2 3 
-1 2 3 4 
-Code:
+1 2 3 4 '''
+#Code:
     for i in range(2,6):
         for j in range(1,i):
             print(j,end=" ")
         print()
 
-10. Check whether the given year is leap year or non leap year
-Code:
+#10. Check whether the given year is leap year or non leap year
+#Code:
 n = int(input("Enter the Year: "))
 
 if (n%4 == 0 and n%100 != 0) or (n%400 == 0):
@@ -103,8 +103,8 @@ if (n%4 == 0 and n%100 != 0) or (n%400 == 0):
 else:
     print(n," is not a Leap Year.")
 
-11. Print the maximum and minimum of the given three numbers
-Code:
+#11. Print the maximum and minimum of the given three numbers
+#Code:
     n1 = int(input("Enter Number 1:"))
     n2 = int(input("Enter Number 2:"))
     n3 = int(input("Enter Number 3:"))
@@ -129,9 +129,9 @@ Code:
         else:
             print(n1," is a MinimumNumber")
 
-12. Input a year and check if it is a leap year using nested condition.
-       if divisible by 4 -->  check divisible by  100 --> then check divisible by 400
-Code:
+'''12. Input a year and check if it is a leap year using nested condition.
+       if divisible by 4 -->  check divisible by  100 --> then check divisible by 400'''
+#Code:
     n = int(input("Enter the Year: "))
     
     if (n%4 == 0 and n%100 != 0) or (n%400 == 0):
